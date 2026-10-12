@@ -2,7 +2,7 @@
 
 杨浩宇的中英双语个人网站，基于 [PRISM](https://github.com/xyjoey/PRISM) 构建。
 
-目标发布地址：https://realman520.github.io/
+发布地址：https://fool05.github.io/
 
 ## 本地开发
 
