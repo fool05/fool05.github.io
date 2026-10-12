@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useThemeStore, resolveTheme } from '@/lib/stores/themeStore';
+import { MotionConfig } from 'framer-motion';
 
 type MediaQueryListWithDeprecated = MediaQueryList & {
   addListener?: (listener: (this: MediaQueryList, ev: MediaQueryListEvent) => void) => void;
@@ -60,5 +61,5 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     return <div style={{ visibility: 'hidden' }}>{children}</div>;
   }
 
-  return <>{children}</>;
+  return <MotionConfig reducedMotion="user">{children}</MotionConfig>;
 } 

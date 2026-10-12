@@ -14,6 +14,7 @@ import { HeartIcon as HeartSolidIcon } from '@heroicons/react/24/solid';
 import { Github, Linkedin, Pin } from 'lucide-react';
 import type { SiteConfig } from '@/lib/config';
 import { useMessages } from '@/lib/i18n/useMessages';
+import { CompassRose } from '@/components/ui/Ornaments';
 
 // Custom ORCID icon component
 const OrcidIcon = ({ className }: { className?: string }) => (
@@ -112,20 +113,24 @@ export default function Profile({ author, social, features, researchInterests }:
             className="sticky top-8"
         >
             {/* Profile Image */}
-            <div className="w-64 h-64 mx-auto mb-6 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105">
+            <div className="tarot-portrait">
+                <div className="tarot-number" aria-hidden="true">
+                    <CompassRose className="h-3 w-3" /><span>0</span><CompassRose className="h-3 w-3" />
+                </div>
                 <Image
                     src={author.avatar}
                     alt={author.name}
                     width={256}
                     height={256}
-                    className="w-full h-full object-cover object-[32%_center]"
+                    className="tarot-image w-full h-auto"
                     priority
                 />
+                <div className="tarot-caption" aria-hidden="true">THE FOOL</div>
             </div>
 
             {/* Name and Title */}
             <div className="text-center mb-6">
-                <h1 className="text-3xl font-serif font-bold text-primary mb-2">
+                <h1 className="profile-name font-serif font-bold text-primary mb-2">
                     {author.name}
                 </h1>
                 <p className="text-lg text-accent font-medium mb-1">
@@ -305,7 +310,7 @@ export default function Profile({ author, social, features, researchInterests }:
 
             {/* Research Interests */}
             {researchInterests && researchInterests.length > 0 && (
-                <div className="bg-neutral-100 dark:bg-neutral-800 rounded-lg p-4 mb-6 hover:shadow-lg transition-all duration-200 hover:scale-[1.02]">
+                <div className="research-folio mb-6">
                     <h3 className="font-semibold text-primary mb-3">{messages.profile.researchInterests}</h3>
                     <div className="space-y-2 text-sm text-neutral-700 dark:text-neutral-500">
                         {researchInterests.map((interest, index) => (
