@@ -1,0 +1,3 @@
+- **2026 · National Second Prize** — China Collegiate Computer Design Competition. Team award; **team leader**.
+- **2026 · National Third Prize** — China Collegiate Software Cup. Team award; **team leader**.
+- **2024 · National Scholarship**.

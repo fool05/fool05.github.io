@@ -1,5 +1,5 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+Hi, I'm **Haoyu Yang (杨浩宇)**, also known as **fool**. I'm a third-year undergraduate studying **Software Engineering** at the **University of Electronic Science and Technology of China (UESTC)**.
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
+During my first two years, I worked on **multimodal learning**, focusing on **missing modalities** and **test-time adaptation**.
 
-My current research focuses on investigating the mathematical principles of natural philosophy.
+My focus has now shifted to **AI infrastructure**, with a particular interest in **KV cache**.

@@ -1,19 +1,12 @@
 [site]
-title = "刘嘉乐"
-description = "某某大学博士生个人主页。"
-last_updated = "2025年11月18日"
+title = "fool"
+description = "杨浩宇（fool）的个人主页。电子科技大学软件工程本科生，关注 AI 基础设施与 KV Cache。"
+last_updated = "2026年10月12日"
 
 [author]
-name = "刘嘉乐"
-title = "博士生"
-institution = "某某大学"
-
-[social]
-location = "城市，国家"
-location_details = [
-  "理科楼 123 室，",
-  "大学路，城市，国家"
-]
+name = "fool"
+title = "软件工程 · 本科三年级"
+institution = "电子科技大学"
 
 [[navigation]]
 title = "关于我"
@@ -22,31 +15,13 @@ target = "about"
 href = "/"
 
 [[navigation]]
-title = "论文"
+title = "教育经历"
 type = "page"
-target = "publications"
-href = "/publications"
+target = "education"
+href = "/education"
 
 [[navigation]]
-title = "教学"
-type = "page"
-target = "teaching"
-href = "/teaching"
-
-[[navigation]]
-title = "奖项"
+title = "获奖与荣誉"
 type = "page"
 target = "awards"
 href = "/awards"
-
-[[navigation]]
-title = "服务"
-type = "page"
-target = "services"
-href = "/services"
-
-[[navigation]]
-title = "简历"
-type = "page"
-target = "cv"
-href = "/cv"
