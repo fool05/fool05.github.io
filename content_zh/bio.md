@@ -2,4 +2,4 @@
 
 大一到大二期间，我主要从事**多模态学习**相关研究，关注**缺失模态**和**测试时适应（Test-Time Adaptation）**。
 
-现在，我的重心逐渐转向 **AI 基础设施（AI Infrastructure）**，目前尤其关注 **KV Cache**。
+现在，我的重心逐渐转向 **AI Infra**，目前尤其关注 **KV Cache**。

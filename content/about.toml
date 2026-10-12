@@ -2,7 +2,7 @@ type = "about"
 title = "About"
 
 [profile]
-research_interests = ["AI Infrastructure", "KV Cache"]
+research_interests = ["AI Infra", "KV Cache"]
 
 [[sections]]
 id = "bio"

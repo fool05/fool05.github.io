@@ -2,7 +2,7 @@ type = "about"
 title = "关于我"
 
 [profile]
-research_interests = ["AI 基础设施（AI Infrastructure）", "KV Cache"]
+research_interests = ["AI Infra", "KV Cache"]
 
 [[sections]]
 id = "bio"
